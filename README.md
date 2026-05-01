@@ -21,7 +21,7 @@
 
 ### About me:
 
-- 🔭 I’m Linux Administrator and programmer enthusiast
+- 🔭 I’m Linux Administrator and enthusiast programmer 
 - 🛠Passionate about automation, reliability, and clean code
 - 📂Actively experimenting with code and Linux
 - 📈Continuously learning new patterns in cloud-native architectures

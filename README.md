@@ -21,10 +21,9 @@
 
 ### About me:
 
-- 🔭 I’m DevOps, Linux Administrator and Go Enthusiast
-- 🔍 Seeking: DevOps, Linux Administrator, Go roles focused on infrastructure scalability, automation, and platform reliability. 
+- 🔭 I’m Linux Administrator and programmer enthusiast
 - 🛠Passionate about automation, reliability, and clean code
-- 📂Actively experimenting with Go and Linux
+- 📂Actively experimenting with code and Linux
 - 📈Continuously learning new patterns in cloud-native architectures
 
 ***

@@ -1,0 +1,44 @@
+name: Refresh profile
+on:
+  push:
+  schedule:
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==12.3.0
+      - run: python generate.py --require-fresh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Save updated GIF
+        env:
+          BRANCH: ${{ github.event.repository.default_branch }}
+          SOURCE: ${{ github.sha }}
+        run: |
+          git fetch origin "refs/heads/$BRANCH"
+          if [ "$(git rev-parse FETCH_HEAD)" != "$SOURCE" ]; then
+            echo 'Skipping stale build; a newer commit exists.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add generated/profile.gif generated/card.png
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update profile GIF'
+            git push origin "HEAD:refs/heads/$BRANCH"
+          fi

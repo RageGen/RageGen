@@ -1,0 +1,197 @@
+{
+  "username": "RageGen",
+  "repository": "RageGen/RageGen",
+  "branch": "main",
+  "canvas": [
+    1160,
+    960
+  ],
+  "card_width": 980,
+  "background": "#090d18",
+  "seed": 19,
+  "radius": [
+    640,
+    430
+  ],
+  "fps": 10,
+  "duration_ms": 6000,
+  "elements": [
+    {
+      "file": "theme/terminal.png",
+      "width": 84,
+      "x": 170,
+      "y": 65,
+      "motion": "float",
+      "phase_ms": 0
+    },
+    {
+      "file": "theme/git.png",
+      "width": 76,
+      "x": 425,
+      "y": 65,
+      "motion": "float",
+      "phase_ms": 350
+    },
+    {
+      "file": "theme/network.png",
+      "width": 80,
+      "x": 725,
+      "y": 65,
+      "motion": "float",
+      "phase_ms": 700
+    },
+    {
+      "file": "theme/satellite.png",
+      "width": 80,
+      "x": 995,
+      "y": 65,
+      "motion": "float",
+      "phase_ms": 1050
+    },
+    {
+      "file": "theme/code.png",
+      "width": 72,
+      "x": 44,
+      "y": 290,
+      "motion": "float",
+      "phase_ms": 1400
+    },
+    {
+      "file": "theme/server.png",
+      "width": 70,
+      "x": 44,
+      "y": 500,
+      "motion": "float",
+      "phase_ms": 1750
+    },
+    {
+      "file": "theme/chip.png",
+      "width": 68,
+      "x": 1116,
+      "y": 290,
+      "motion": "float",
+      "phase_ms": 2100
+    },
+    {
+      "file": "theme/disk.png",
+      "width": 72,
+      "x": 1116,
+      "y": 500,
+      "motion": "float",
+      "phase_ms": 2450
+    },
+    {
+      "file": "theme/monitor.png",
+      "width": 84,
+      "x": 170,
+      "y": 890,
+      "motion": "float",
+      "phase_ms": 2800
+    },
+    {
+      "file": "theme/backup.png",
+      "width": 80,
+      "x": 420,
+      "y": 890,
+      "motion": "float",
+      "phase_ms": 3150
+    },
+    {
+      "file": "theme/mail.png",
+      "width": 76,
+      "x": 650,
+      "y": 890,
+      "motion": "float",
+      "phase_ms": 3500
+    },
+    {
+      "file": "theme/signal.png",
+      "width": 78,
+      "x": 850,
+      "y": 890,
+      "motion": "float",
+      "phase_ms": 3850
+    },
+    {
+      "file": "theme/rocket.png",
+      "width": 80,
+      "x": 1035,
+      "y": 890,
+      "motion": "float",
+      "phase_ms": 4200
+    },
+    {
+      "file": "orbit/decoration-13.png",
+      "width": 16,
+      "x": 300,
+      "y": 110,
+      "motion": "twinkle",
+      "phase_ms": 1950
+    },
+    {
+      "file": "orbit/decoration-15.png",
+      "width": 16,
+      "x": 1116,
+      "y": 760,
+      "motion": "twinkle",
+      "phase_ms": 2250
+    },
+    {
+      "file": "orbit/decoration-17.png",
+      "width": 16,
+      "x": 665,
+      "y": 920,
+      "motion": "twinkle",
+      "phase_ms": 2550
+    },
+    {
+      "file": "orbit/decoration-19.png",
+      "width": 16,
+      "x": 44,
+      "y": 760,
+      "motion": "twinkle",
+      "phase_ms": 2850
+    },
+    {
+      "file": "orbit/decoration-08.png",
+      "width": 72,
+      "x": 580,
+      "y": 65,
+      "motion": "float",
+      "phase_ms": 1200
+    },
+    {
+      "file": "orbit/decoration-20.png",
+      "width": 42,
+      "x": 560,
+      "y": 900,
+      "motion": "float",
+      "phase_ms": 3000
+    },
+    {
+      "file": "orbit/decoration-14.png",
+      "width": 19,
+      "x": 945,
+      "y": 112,
+      "motion": "twinkle",
+      "phase_ms": 2100
+    },
+    {
+      "file": "orbit/decoration-18.png",
+      "width": 19,
+      "x": 300,
+      "y": 910,
+      "motion": "twinkle",
+      "phase_ms": 2700
+    },
+    {
+      "file": "orbit/decoration-16.png",
+      "width": 19,
+      "x": 1116,
+      "y": 780,
+      "motion": "twinkle",
+      "phase_ms": 2400
+    }
+  ],
+  "card_max_height": 720
+}

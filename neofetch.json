@@ -1,0 +1,182 @@
+{
+  "backgroundColor": "#161b22",
+  "sections": [
+    {
+      "title": "{{username}}@github",
+      "fields": [
+        {
+          "key": "Name",
+          "value": "{{name}}",
+          "keyColor": "#39e7ff",
+          "valueColor": "#ffe24a"
+        },
+        {
+          "key": "Created",
+          "value": "{{created}}",
+          "keyColor": "#39e7ff",
+          "valueColor": "#ffe24a"
+        },
+        {
+          "key": "Uptime",
+          "value": "{{uptime}}",
+          "keyColor": "#39e7ff",
+          "valueColor": "#ffe24a"
+        }
+      ],
+      "titleColor": {
+        "text": "#39e7ff"
+      }
+    },
+    {
+      "title": "- Toolbox",
+      "fields": [
+        {
+          "key": "Languages",
+          "value": "{{languages}}",
+          "keyColor": "#ffe24a",
+          "valueColor": "#39e7ff"
+        }
+      ],
+      "titleColor": {
+        "text": "#ffe24a"
+      }
+    },
+    {
+      "title": "- My bio",
+      "fields": [
+        {
+          "key": "Bio",
+          "value": "{{bio}}",
+          "keyColor": "#39e7ff",
+          "valueColor": "#ffe24a"
+        }
+      ],
+      "titleColor": {
+        "text": "#39e7ff"
+      }
+    },
+    {
+      "columns": [
+        {
+          "title": "- Main PC hardware",
+          "titleColor": {
+            "text": "#ffe24a"
+          },
+          "fields": [
+            {
+              "key": "OS",
+              "value": "Windows 11",
+              "keyColor": "#ffe24a",
+              "valueColor": "#39e7ff"
+            },
+            {
+              "key": "CPU",
+              "value": "I7 12700KF",
+              "keyColor": "#ffe24a",
+              "valueColor": "#39e7ff"
+            },
+            {
+              "key": "RAM",
+              "value": "32GB RAM",
+              "keyColor": "#ffe24a",
+              "valueColor": "#39e7ff"
+            },
+            {
+              "key": "GPU",
+              "value": "4070TI",
+              "keyColor": "#ffe24a",
+              "valueColor": "#39e7ff"
+            }
+          ]
+        },
+        {
+          "title": "- Server hardware",
+          "titleColor": {
+            "text": "#39e7ff"
+          },
+          "fields": [
+            {
+              "key": "OS",
+              "value": "Fedora Server",
+              "keyColor": "#39e7ff",
+              "valueColor": "#ffe24a"
+            },
+            {
+              "key": "CPU",
+              "value": "AMD Ryzen 9 6900HX",
+              "keyColor": "#39e7ff",
+              "valueColor": "#ffe24a"
+            },
+            {
+              "key": "RAM",
+              "value": "24GB",
+              "keyColor": "#39e7ff",
+              "valueColor": "#ffe24a"
+            },
+            {
+              "key": "Storage",
+              "value": "1TB",
+              "keyColor": "#39e7ff",
+              "valueColor": "#ffe24a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "title": "- GitHub Stats",
+    "rows": [
+      {
+        "left": {
+          "key": "Repos",
+          "value": "{{repos}}"
+        },
+        "right": {
+          "key": "Stars",
+          "value": "{{stars}}"
+        }
+      },
+      {
+        "left": {
+          "key": "Following",
+          "value": "{{following}}"
+        },
+        "right": {
+          "key": "Followers",
+          "value": "{{followers}}"
+        }
+      },
+      {
+        "left": {
+          "key": "Commits",
+          "value": "{{commits}}"
+        },
+        "right": {
+          "key": "Forks",
+          "value": "{{forks}}"
+        }
+      },
+      {
+        "left": {
+          "key": "Issues",
+          "value": "{{issues}}"
+        },
+        "right": {
+          "key": "Pull Requests",
+          "value": "{{prs}}"
+        }
+      },
+      "loc"
+    ],
+    "titleColor": {
+      "text": "#ffe24a"
+    },
+    "valueColor": "#39e7ff"
+  },
+  "image_file": "assets/smiley.png",
+  "imageColor": "#39e7ff",
+  "ascii_mode": "silhouette",
+  "ascii_symmetric": true,
+  "ascii_threshold": 128
+}
